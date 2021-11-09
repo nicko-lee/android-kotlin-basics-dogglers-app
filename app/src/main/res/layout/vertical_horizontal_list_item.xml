@@ -78,9 +78,10 @@
 
             <TextView
                 android:id="@+id/dog_hobbies"
+                style="@style/TextAppearance.AppCompat.Body1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                layout android:gravity="right"
+                android:gravity="right"
                 tools:text="Hobbies: mooning"
                 android:layout_weight="1" />
 

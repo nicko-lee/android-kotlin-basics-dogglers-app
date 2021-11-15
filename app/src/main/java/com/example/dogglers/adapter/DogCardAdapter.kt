@@ -58,7 +58,7 @@ class DogCardAdapter(
         // DONE: Use a conditional to determine the layout type and set it accordingly.
         //  if the layout variable is Layout.GRID the grid list item should be used. Otherwise the
         //  the vertical/horizontal list item should be used.
-        if (viewType == Layout.GRID) {
+        if (layout == Layout.GRID) {
             dogViewHolder = layoutInflater.inflate(R.layout.grid_list_item, parent, false)
         } else {
             dogViewHolder = layoutInflater.inflate(R.layout.vertical_horizontal_list_item, parent, false)
